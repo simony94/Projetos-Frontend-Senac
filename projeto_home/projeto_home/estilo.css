@@ -1,0 +1,44 @@
+body {
+    background: #ebe7b7;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#conteiner {
+    gap: 20px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#conteiner2 {
+    gap: 20px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+#titulo {
+    background: #00008b;
+    color: #ffff;
+    padding: 12px;
+    text-align: center;
+}
+
+.quadro1 {
+    background: #e0eff1;
+    padding: 10px;
+    display: inline-block;
+}
+
+.quadro1 img { height: 400px; width: 400px;
+
+}
