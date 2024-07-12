@@ -1,0 +1,33 @@
+body{
+background:#ebe7b7;
+}
+
+#conteiner {
+display: flex;
+flex-wrap: wrap;
+}
+
+#titulo{
+background: #00008b;
+color: #ffff;
+padding: 12px;
+text-align: center;
+
+}
+
+#quadro1{
+background: #e0eff1;
+padding: 10px;
+display: inline-block;
+}
+
+.img-quadro1{
+    display: block;
+    margin: 0 auto;
+}
+
+#quadro2{
+    background: #e0eff1;
+    padding: 10px;
+    display: flexbox;
+}
