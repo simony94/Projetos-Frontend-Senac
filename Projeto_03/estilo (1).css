@@ -1,0 +1,177 @@
+html, body {
+    overflow: hidden;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 200vh; /* Altura maior para ver o efeito ao rolar */
+    background-image: url('imagens/plano_de_fondo.jpg'); /* Caminho para a sua imagem */
+    background-size: cover; /* Faz a imagem cobrir o contêiner */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-attachment: fixed; /* A imagem de fundo fica fixa */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-color: #333; /* Cor de fundo caso a imagem não cubra completamente */
+}
+
+.titulo {
+    width: 25px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    /* Cor de fundo para destacar a transparência da imagem */
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo img {
+    width: 400px;
+    height: auto;
+}
+
+.portugues {
+    position: absolute;
+    top: 35px;
+    right: 185px;
+    padding: 8px;
+    font-family: 16px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #8484847e;
+    cursor: pointer;
+}
+
+.btn-entrar {
+    position: fixed;
+    top: 4%;
+    right: 6%;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: backgroud-color 0.3s ease;
+}
+
+.texto01 {
+    position: absolute;
+    top: 40%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff00;
+    padding: 20px;
+    width: 800px;
+}
+
+.texto01 h1 {
+    margin: 0;
+    font-family: 200px;
+    color: rgb(255, 255, 255);
+}
+
+.texto02 {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+}
+
+.texto02 p {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.informacoes {
+    position: fixed;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff00;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+}
+
+.informacoes p {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.email {
+    position: fixed;
+    top: 65%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    width: 490px;
+    background-color: rgba(0, 0, 0, 0.553);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.email input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.botom {
+    position: fixed;
+    top: 65%;
+    left: 66%;
+    width: 140px;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 2px 4px;
+    font-family: 16px;
+    cursor: pointer;
+    transition: backgroud-color 0.3s ease;
+    text-align: left;
+    clip:polygon(0% 0%, 100% 50%, 0% 100%);
+}
+
+.footer {
+    width: 80%;
+    background: linear-gradient(rgb(194, 32, 64), rgb(161, 41, 143), rgb(111, 30, 148));
+    position: fixed;
+    bottom: 0;
+    left: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-centent {
+    text-align: left;
+}
+
+.footer-centent h2,
+.footer-centent p {
+    margin: 5px 0;
+}
+
+.pipoca {
+    width: 25px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
